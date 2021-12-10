@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /** PROBABLY THE WRONG PLACE TO PUT THIS */
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.App table {
+  height: 900px;
+  width: 1600px;
+}
+
+.App td,
+.App th {
+  background-color: #270078;
+  border: 4px solid #000000;
+  width: 150px;
+}
+
+.App th {
+  padding: 8px 4px;
+  font-size: 150%;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.App td {
+  padding: 16px;
+  font-size: 300%;
+  font-weight: bold;
+  color: #dda344;
+  text-shadow: 2px 2px 2px #000000;
+  cursor: pointer;
+}
+
+.Answer {
+  background-color: #270078;
+  text-shadow: 3px 3px 2px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400%;
+  width: 700px;
+  height: 700px;
+  padding: 100px 450px;
+}
+
+.TopLeft {
+  top: 8px;
+  left: 8px;
+}
+
+.TopRight {
+  top: 8px;
+  right: 8px;
+}
+
+.ActionButton {
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.5em;
+  background-color: #dda344;
+  padding: 4px;
+  border-radius: 5px;
+  text-transform: none;
+}
+
+.ShowOnHover {
+  display: none;
+}
+
+*:hover > .ShowOnHover {
+  display: inline;
+  padding: 0 8px;
+}
